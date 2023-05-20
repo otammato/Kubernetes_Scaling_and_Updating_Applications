@@ -141,3 +141,13 @@ You should see that the queries are going to different Pods because of the effec
 ```
 kubectl scale deployment hello-world --replicas=1
 ```
+5. Check the Pods to see that two are deleted or being deleted.
+
+```
+kubectl get pods
+```
+
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/05ca8958-3418-4945-a3e4-06ee10a1a524" width="500px"/>
+</p>
+
