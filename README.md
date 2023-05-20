@@ -117,3 +117,7 @@ In real-world situations, load on an application can vary over time. If our appl
 kubectl scale deployment hello-world --replicas=3
 ```
 2. Get Pods to ensure that there are now three Pods instead of just one. In addition, the status should eventually update to “Running” for all three.
+
+```
+kubectl get pods
+```
