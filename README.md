@@ -38,7 +38,7 @@ export MY_NAMESPACE=sn-labs-$USERNAME
 </p>
 
 
-3. Build and push the image again, as it may have been deleted automatically since you completed the first lab.
+3. Build and push the image.
 
 ```
 docker build -t us.icr.io/$MY_NAMESPACE/hello-world:1 . && docker push us.icr.io/$MY_NAMESPACE/hello-world:1
