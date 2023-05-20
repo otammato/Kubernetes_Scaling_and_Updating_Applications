@@ -103,3 +103,8 @@ curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/
 </p>
 
 The app is running!
+
+<br>
+<br>
+
+## Scaling the application using a ReplicaSet
