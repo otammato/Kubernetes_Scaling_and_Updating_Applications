@@ -165,3 +165,6 @@ kubectl get pods
 
 ## Perform rolling updates
 
+Rolling updates are an easy way to update our application in an automated and controlled fashion. To simulate an update, let’s first build a new version of our application and push it to Container Registry.
+
+1. Use the Explorer to edit ```app.js```. The path to this file is ```CC201/labs/3_K8sScaleAndUpdate/```. Change the welcome message from ```'Hello world from ' + hostname + '! Your app is up and running!\n'``` to ```'Welcome to ' + hostname + '! Your app is up and running!\n'```. Make sure to save the file when you’re done.
