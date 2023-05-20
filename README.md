@@ -7,7 +7,7 @@
 
 1. Change to your project folder.
 
-| Syntax      | Description |
+
 | ----------- | ----------- |
 | 1     | ``` cd /home/project```     |
 
