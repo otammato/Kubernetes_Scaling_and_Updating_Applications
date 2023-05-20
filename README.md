@@ -72,3 +72,14 @@ kubectl get pods
 </p>
 
 4. In order to access the application, we have to expose it to the internet via a Kubernetes Service.
+
+```
+kubectl expose deployment/hello-world
+```
+This creates a service of type ClusterIP.
+
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/b94467ea-18ad-4339-9025-0d746e5cc6d5" width="500px"/>
+</p>
+
+
