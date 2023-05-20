@@ -90,5 +90,10 @@ This creates a service of type ClusterIP.
 ```
 kubectl proxy
 ```
-
 > Note: This is not how you would make an application externally accessible in a production scenario.
+
+7. Go back to your original terminal window, ping the application to get a response.
+
+```
+curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
+```
