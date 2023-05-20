@@ -87,4 +87,8 @@ This creates a service of type ClusterIP.
 
 6. Currently, cluster IPs are only accesible within the cluster. To make this externally accessible, we will create a proxy.
 
+```
+kubectl proxy
+```
+
 > Note: This is not how you would make an application externally accessible in a production scenario.
