@@ -235,7 +235,7 @@ kubectl get deployments -o wide
 
 Look for the ```IMAGES``` column and ensure that the tag is ```1```.
 
-9. Ping your application to ensure that the earlier ‘Hello World..Your app is up & running!‘ message is displayed.
+9. Use ```curl``` command to ensure that the earlier ‘Hello World..Your app is up & running!‘ message is displayed.
 ```
 curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
 ```
