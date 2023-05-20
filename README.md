@@ -7,13 +7,10 @@
 
 1. Change to your project folder.
 
-|-------------|-----------------------|
-| Syntax      |``` cd /home/project```|
-
 | Syntax      | Description |
 | ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+| 1     | ``` cd /home/project```     |
+
 
 
 2. 
