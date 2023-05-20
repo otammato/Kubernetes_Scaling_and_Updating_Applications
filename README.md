@@ -71,4 +71,4 @@ kubectl get pods
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/3431f65d-4dcd-48f1-892d-91fd9b0d5f26" width="500px"/>
 </p>
 
-
+4. In order to access the application, we have to expose it to the internet via a Kubernetes Service.
