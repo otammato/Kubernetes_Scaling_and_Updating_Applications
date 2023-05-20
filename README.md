@@ -7,8 +7,8 @@
 
 1. Change to your project folder.
 
-| 1           | ``` cd /home/project``` |
-| ----------- | ----------- |
+``` cd /home/project``` 
+
 
 
 2. Clone the git repository that contains the files
