@@ -7,7 +7,7 @@
 
 1. Change to your project folder.
 
-``` cd /home/project``` 
+```py cd /home/project``` 
 
 
 
