@@ -113,6 +113,6 @@ In real-world situations, load on an application can vary over time. If our appl
 
 1. Use the scale command to scale up your Deployment. Make sure to run this in the terminal window that is not running the proxy command.
 
-```tf
+```bash
 kubectl scale deployment hello-world --replicas=3
 ```
