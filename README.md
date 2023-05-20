@@ -7,7 +7,9 @@
 
 1. Change to your project folder.
 
-```cd /home/project``` 
+```
+cd /home/project
+``` 
 
 
 
