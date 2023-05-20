@@ -113,7 +113,7 @@ In real-world situations, load on an application can vary over time. If our appl
 
 1. Use the ```scale``` command to scale up your Deployment. Make sure to run this in the terminal window that is not running the ```proxy``` command.
 
-```bash
+```
 kubectl scale deployment hello-world --replicas=3
 ```
 2. Get Pods to ensure that there are now three Pods instead of just one. In addition, the status should eventually update to “Running” for all three.
@@ -127,6 +127,6 @@ kubectl get pods
 </p>
 
 3. ```curl``` your application multiple times to ensure that Kubernetes is load-balancing across the replicas.
-```
+```bash
 for i in `seq 10`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done
 ```
