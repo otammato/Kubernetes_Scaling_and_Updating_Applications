@@ -4,3 +4,7 @@
 - Apply rolling updates to an application
 - Use a ConfigMap to store application configuration
 - Autoscale the application using Horizontal Pod Autoscaler
+
+```
+cd /home/project
+```
