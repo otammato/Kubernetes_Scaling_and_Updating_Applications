@@ -178,3 +178,4 @@ Rolling updates are an easy way to update our application in an automated and co
 ```
 docker build -t us.icr.io/$MY_NAMESPACE/hello-world:2 . && docker push us.icr.io/$MY_NAMESPACE/hello-world:2
 ```
+> NOTE: Do not close the terminal that is running the proxy command
