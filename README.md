@@ -110,3 +110,5 @@ The app is running!
 ## Scaling the application using a ReplicaSet
 
 In real-world situations, load on an application can vary over time. If our application begins experiencing heightened load, we want to scale it up to accommodate that load. There is a simple ```kubectl``` command for scaling.
+
+1. Use the scale command to scale up your Deployment. Make sure to run this in the terminal window that is not running the proxy command.
