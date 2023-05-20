@@ -126,4 +126,5 @@ kubectl get pods
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/e9eea591-a465-4400-ab6f-4bacff333c34" width="500px"/>
 </p>
 
+3. ```curl``` your application multiple times to ensure that Kubernetes is load-balancing across the replicas.
 
