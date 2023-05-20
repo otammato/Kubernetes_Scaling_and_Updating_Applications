@@ -173,3 +173,8 @@ Rolling updates are an easy way to update our application in an automated and co
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/fe7ad849-2f90-4a1f-9743-3974fdad1a7d" width="500px"/>
 </p>
 
+2. Build and push this new version to Container Registry. Update the tag to indicate that this is a second version of this application. Make sure to use the terminal window that isn’t running the ```proxy``` command.
+
+```
+docker build -t us.icr.io/$MY_NAMESPACE/hello-world:2 . && docker push us.icr.io/$MY_NAMESPACE/hello-world:2
+```
