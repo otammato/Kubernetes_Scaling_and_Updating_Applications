@@ -18,3 +18,4 @@ cd /home/project
 ```
 [ ! -d 'CC201' ] && git clone https://github.com/ibm-developer-skills-network/CC201.git
 ```
+3. Change to the directory
