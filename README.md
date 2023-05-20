@@ -189,3 +189,7 @@ docker build -t us.icr.io/$MY_NAMESPACE/hello-world:2 . && docker push us.icr.io
 ```
 kubectl set image deployment/hello-world hello-world=us.icr.io/$MY_NAMESPACE/hello-world:2
 ```
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/8e2f997b-18ee-4ce4-857f-571b74d7c34a" width="500px"/>
+</p>
+
