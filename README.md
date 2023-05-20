@@ -71,6 +71,7 @@ kubectl get pods
 </p>
 
 4. In order to access the application, we have to expose it to the internet via a Kubernetes Service.
+> NOTE: Do not close the terminal window you were working on.
 
 ```
 kubectl expose deployment/hello-world
