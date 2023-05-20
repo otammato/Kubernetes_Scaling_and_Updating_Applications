@@ -211,3 +211,11 @@ curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/228df914-4f54-4e71-9760-84d61cf83897" width="500px"/>
 </p>
 
+6. It’s possible that a new version of an application contains a bug. In that case, Kubernetes can roll back the Deployment like this:
+```
+kubectl rollout undo deployment/hello-world
+```
+
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/27473bc1-633c-4173-8d27-4894f4556d71" width="500px"/>
+</p>
