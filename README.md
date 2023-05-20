@@ -160,4 +160,8 @@ kubectl get pods
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/8691fe97-00b1-4cff-bc57-701a720fab1d" width="500px"/>
 </p>
 
+<br>
+<br>
+
+## Perform rolling updates
 
