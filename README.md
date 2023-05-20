@@ -81,4 +81,5 @@ This creates a service of type ClusterIP.
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/b94467ea-18ad-4339-9025-0d746e5cc6d5" width="500px"/>
 </p>
 
+5. Open a new terminal window using Terminal > New Terminal
 
