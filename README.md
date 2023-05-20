@@ -130,3 +130,9 @@ kubectl get pods
 ```bash
 for i in `seq 10`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done
 ```
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/e521605d-a3cf-48df-9e38-8db2e59320d2" width="500px"/>
+</p>
+
+
+
