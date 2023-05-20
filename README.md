@@ -46,6 +46,9 @@ export MY_NAMESPACE=sn-labs-$USERNAME
 docker build -t us.icr.io/$MY_NAMESPACE/hello-world:1 . && docker push us.icr.io/$MY_NAMESPACE/hello-world:1
 ```
 
+<br>
+<br>
+
 ## Deploy the application to Kubernetes
 <br>
 
