@@ -108,3 +108,5 @@ The app is running!
 <br>
 
 ## Scaling the application using a ReplicaSet
+
+In real-world situations, load on an application can vary over time. If our application begins experiencing heightened load, we want to scale it up to accommodate that load. There is a simple ```kubectl``` command for scaling.
