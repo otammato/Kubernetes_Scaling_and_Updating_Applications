@@ -15,7 +15,7 @@ cd /home/project
 
 
 
-2. Check if 'CC201' exists & clone the git repository that contains the files
+2. Check if 'CC201' folder exists & clone the git repository that contains the files
 
 ```
 [ ! -d 'CC201' ] && git clone https://github.com/ibm-developer-skills-network/CC201.git
@@ -121,3 +121,9 @@ kubectl scale deployment hello-world --replicas=3
 ```
 kubectl get pods
 ```
+
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/e9eea591-a465-4400-ab6f-4bacff333c34" width="500px"/>
+</p>
+
+
