@@ -23,5 +23,6 @@ cd /home/project
 ```
 cd CC201/labs/3_K8sScaleAndUpdate/
 ```
-
-## Build and push application image to IBM Cloud Container Registry
+<br>
+<br>
+## Build and push application image to Cloud Container Registry
