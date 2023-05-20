@@ -25,4 +25,5 @@ cd CC201/labs/3_K8sScaleAndUpdate/
 ```
 <br>
 <br>
+
 ## Build and push application image to Cloud Container Registry
