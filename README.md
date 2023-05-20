@@ -19,3 +19,9 @@ cd /home/project
 [ ! -d 'CC201' ] && git clone https://github.com/ibm-developer-skills-network/CC201.git
 ```
 3. Change to the directory
+
+```
+cd CC201/labs/3_K8sScaleAndUpdate/
+```
+
+## Build and push application image to IBM Cloud Container Registry
