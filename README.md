@@ -111,8 +111,9 @@ The app is running!
 
 In real-world situations, load on an application can vary over time. If our application begins experiencing heightened load, we want to scale it up to accommodate that load. There is a simple ```kubectl``` command for scaling.
 
-1. Use the scale command to scale up your Deployment. Make sure to run this in the terminal window that is not running the proxy command.
+1. Use the ```scale``` command to scale up your Deployment. Make sure to run this in the terminal window that is not running the ```proxy``` command.
 
 ```py
 kubectl scale deployment hello-world --replicas=3
 ```
+2. Get Pods to ensure that there are now three Pods instead of just one. In addition, the status should eventually update to “Running” for all three.
