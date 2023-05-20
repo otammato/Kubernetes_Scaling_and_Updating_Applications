@@ -34,3 +34,5 @@ export MY_NAMESPACE=sn-labs-$USERNAME
 2. Use the Explorer to view the Dockerfile that will be used to build an image.
 
 ![image](https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/459a71fd-42f9-48e5-ab91-f380391aa19b)
+
+3. Build and push the image again, as it may have been deleted automatically since you completed the first lab.
