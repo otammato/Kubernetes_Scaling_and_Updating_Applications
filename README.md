@@ -7,11 +7,8 @@
 
 1. Change to your project folder.
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | ```
-cd /home/project
-```     |
+| Syntax      |``` cd /home/project```|
+
 
 
 2. 
