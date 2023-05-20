@@ -5,6 +5,16 @@
 - Use a ConfigMap to store application configuration
 - Autoscale the application using Horizontal Pod Autoscaler
 
-```
+1. Change to your project folder.
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | ```
 cd /home/project
+```     |
+
+
+2. 
+```
+[ ! -d 'CC201' ] && git clone https://github.com/ibm-developer-skills-network/CC201.git
 ```
