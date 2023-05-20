@@ -54,7 +54,7 @@ docker build -t us.icr.io/$MY_NAMESPACE/hello-world:1 . && docker push us.icr.io
 
 Use the Explorer to edit ```deployment.yaml``` in this directory. The path to this file is ```CC201/labs/3_K8sScaleAndUpdate/```. You need to insert your namespace where it says <my_namespace>. Make sure to save the file when you’re done.
 
-| NOTE: To know your namespace, run echo $MY_NAMESPACE in the terminal
+> NOTE: To know your namespace, run ```echo $MY_NAMESPACE``` in the terminal
 
 List Pods until the status is “Running”.
 ```
