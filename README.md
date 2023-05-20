@@ -233,4 +233,4 @@ kubectl get deployments -o wide
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6fcdf302-fb36-4784-a451-6885204dd0a2" width="500px"/>
 </p>
 
-
+Look for the ```IMAGES``` column and ensure that the tag is ```1```.
