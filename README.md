@@ -6,9 +6,14 @@
 - Autoscale the application using Horizontal Pod Autoscaler
 
 1. Change to your project folder.
+
 |-------------|-----------------------|
 | Syntax      |``` cd /home/project```|
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
 
 
 2. 
