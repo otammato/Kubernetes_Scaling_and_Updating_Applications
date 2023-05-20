@@ -84,3 +84,7 @@ This creates a service of type ClusterIP.
 5. Open a new terminal window using Terminal > New Terminal
 
 > NOTE: Do not close the terminal window you were working on.
+
+6. Currently, cluster IPs are only accesible within the cluster. To make this externally accessible, we will create a proxy.
+
+> Note: This is not how you would make an application externally accessible in a production scenario.
