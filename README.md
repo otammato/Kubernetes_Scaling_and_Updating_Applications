@@ -219,3 +219,8 @@ kubectl rollout undo deployment/hello-world
 <p align="left" >
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/27473bc1-633c-4173-8d27-4894f4556d71" width="500px"/>
 </p>
+
+7. Get a status of the rolling update by using the following command:
+```
+kubectl rollout status deployment/hello-world
+```
