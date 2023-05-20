@@ -61,6 +61,8 @@ docker build -t us.icr.io/$MY_NAMESPACE/hello-world:1 . && docker push us.icr.io
 ```yml
 kubectl apply -f deployment.yaml
 ```
-List Pods until the status is “Running”.
+3. List Pods until the status is “Running”.
+
 ```
+kubectl get pods
 ```
