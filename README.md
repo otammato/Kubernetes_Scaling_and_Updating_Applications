@@ -136,7 +136,7 @@ for i in `seq 10`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME
 
 You should see that the queries are going to different Pods because of the effect of load-balancing.
 
-3. Similarly, you can use the scale command to scale down your Deployment.
+4. Similarly, you can use the scale command to scale down your Deployment.
 
 ```
 kubectl scale deployment hello-world --replicas=1
