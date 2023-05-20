@@ -127,4 +127,6 @@ kubectl get pods
 </p>
 
 3. ```curl``` your application multiple times to ensure that Kubernetes is load-balancing across the replicas.
-
+```
+for i in `seq 10`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done
+```
