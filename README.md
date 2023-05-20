@@ -97,3 +97,9 @@ kubectl proxy
 ```
 curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
 ```
+
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/a3f1ae19-89f1-4e8a-9072-c648123ccbdb" width="500px"/>
+</p>
+
+The app is running!
