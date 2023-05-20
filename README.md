@@ -224,3 +224,13 @@ kubectl rollout undo deployment/hello-world
 ```
 kubectl rollout status deployment/hello-world
 ```
+8. Get the Deployment with the wide option to see that the old tag is used.
+```
+kubectl get deployments -o wide
+```
+
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6fcdf302-fb36-4784-a451-6885204dd0a2" width="500px"/>
+</p>
+
+
