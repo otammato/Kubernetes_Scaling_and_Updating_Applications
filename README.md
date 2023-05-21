@@ -128,7 +128,7 @@ kubectl get pods
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/e9eea591-a465-4400-ab6f-4bacff333c34" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/af376e0a-8092-408d-a532-148994f42911" width="800px"/>
 </p>
 
 3. ```curl``` your application multiple times to ensure that Kubernetes is load-balancing across the replicas.
@@ -136,8 +136,9 @@ kubectl get pods
 for i in `seq 10`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/e521605d-a3cf-48df-9e38-8db2e59320d2" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/748aed8a-0a19-43a9-b86f-8483463fbdc3" width="800px"/>
 </p>
+
 
 You should see that the queries are going to different Pods because of the effect of load-balancing.
 
