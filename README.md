@@ -302,4 +302,6 @@ kubectl proxy
 
 6. Open another new terminal and enter the below command to spam the app with multiple requests for increasing the load:
 
-```for i in `seq 100000`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done```
+```
+for i in `seq 100000`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done
+```
