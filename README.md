@@ -17,7 +17,6 @@ cd /home/project
 ``` 
 
 
-
 2. Check if 'CC201' folder exists & clone the git repository that contains the files
 
 ```
@@ -105,7 +104,7 @@ curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/a3f1ae19-89f1-4e8a-9072-c648123ccbdb" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/0a4ab8d2-c856-4645-8efd-6309e80ad703" width="800px"/>
 </p>
 
 The app is running!
