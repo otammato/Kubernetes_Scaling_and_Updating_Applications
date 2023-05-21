@@ -262,3 +262,4 @@ resources specifies the resource requirements for the container.
 
 In this configuration, the container is limited to a maximum of 50 milliCPU units (0.05 CPU units) and requires at least 20 milliCPU units (0.02 CPU units) to be scheduled on a node.
 
+2. Apply the deployment:
