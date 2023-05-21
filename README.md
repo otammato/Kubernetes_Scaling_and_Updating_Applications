@@ -312,3 +312,7 @@ This is a bash loop that repeatedly sends a curl request to the specified URL. I
 ```
 kubectl get hpa hello-world --watch
 ```
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/346a2f76-3940-4580-8539-7ccce6159eb3" width="600px"/>
+</p>
+
