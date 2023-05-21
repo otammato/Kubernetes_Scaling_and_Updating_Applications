@@ -307,3 +307,8 @@ for i in `seq 100000`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USER
 ```
 
 This is a bash loop that repeatedly sends a curl request to the specified URL. It will execute the curl command 100,000 times in a loop.
+
+7. Run the below command to observe the replicas increase in accordance with the autoscaling:
+```
+kubectl get hpa hello-world --watch
+```
