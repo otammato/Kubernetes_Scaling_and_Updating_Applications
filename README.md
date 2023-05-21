@@ -161,7 +161,7 @@ kubectl get pods
 kubectl get pods
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/8691fe97-00b1-4cff-bc57-701a720fab1d" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/ae322a51-7b4d-45cc-af6c-dcd403162e3b" width="800px"/>
 </p>
 
 <br>
