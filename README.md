@@ -246,3 +246,10 @@ curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/
 <br>
 
 ## Autoscale the ```hello-world``` application using Horizontal Pod Autoscaler
+
+1. Add the following section to the deployment.yaml file under the template.spec.containers section
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/40397d01-3681-4b55-a399-a40d36425cc5" width="800px"/>
+</p>
+
+
