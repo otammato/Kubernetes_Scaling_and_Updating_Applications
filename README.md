@@ -305,3 +305,5 @@ kubectl proxy
 ```
 for i in `seq 100000`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done
 ```
+
+This is a bash loop that repeatedly sends a curl request to the specified URL. It will execute the curl command 100,000 times in a loop.
