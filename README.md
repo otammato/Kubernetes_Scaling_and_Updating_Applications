@@ -216,7 +216,7 @@ kubectl rollout undo deployment/hello-world
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/27473bc1-633c-4173-8d27-4894f4556d71" width="500px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/27473bc1-633c-4173-8d27-4894f4556d71" width="700px"/>
 </p>
 
 7. Get a status of the rolling update by using the following command:
@@ -229,7 +229,7 @@ kubectl get deployments -o wide
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6fcdf302-fb36-4784-a451-6885204dd0a2" width="500px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6fcdf302-fb36-4784-a451-6885204dd0a2" width="700px"/>
 </p>
 
 Look for the ```IMAGES``` column and ensure that the tag is ```1```.
@@ -239,7 +239,7 @@ Look for the ```IMAGES``` column and ensure that the tag is ```1```.
 curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/0d010fda-04a3-4278-ae81-9b39db2b15af" width="500px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/0d010fda-04a3-4278-ae81-9b39db2b15af" width="700px"/>
 </p>
 
 <br>
