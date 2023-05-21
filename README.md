@@ -5,6 +5,10 @@
 - Autoscale the application using Horizontal Pod Autoscaler
 
 ## Pre-steps:
+0. Deploy a kubernetes cluster. You can use any of this approaches:
+https://github.com/otammato/Kubernetes_deploy_cluster_manually_on_EC2_instances_AWS
+https://github.com/otammato/Kubernetes_Terraform_cluster_deploy_on_EKS_AWS
+https://github.com/otammato/Kubernetes_Terraform_deploy_on_EC2_AWS
 
 1. Change to your project folder.
 
