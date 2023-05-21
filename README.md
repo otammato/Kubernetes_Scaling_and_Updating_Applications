@@ -35,7 +35,7 @@ export MY_NAMESPACE=sn-labs-$USERNAME
 2. Use the Explorer to view the Dockerfile that will be used to build an image.
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/459a71fd-42f9-48e5-ab91-f380391aa19b)" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/459a71fd-42f9-48e5-ab91-f380391aa19b)" width="600px"/>
 </p>
 
 
@@ -249,7 +249,7 @@ curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/
 
 1. Add the following section to the deployment.yaml file under the template.spec.containers section
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/40397d01-3681-4b55-a399-a40d36425cc5" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/40397d01-3681-4b55-a399-a40d36425cc5" width="600px"/>
 </p>
 
 
