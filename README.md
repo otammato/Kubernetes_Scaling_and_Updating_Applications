@@ -17,7 +17,7 @@ cd /home/project
 2. Check if 'CC201' folder exists & clone the git repository that contains the files
 
 ```
-[ ! -d 'CC201' ] && git clone https://github.com/ibm-developer-skills-network/CC201.git
+[ ! -d 'CC201' ] && git clone https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications.git
 ```
 3. Change to the directory
 
