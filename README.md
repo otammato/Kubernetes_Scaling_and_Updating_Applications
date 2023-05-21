@@ -154,9 +154,8 @@ kubectl get pods
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/f85fce04-7490-438a-9f26-4668fbbf5677" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/1106e433-969b-4156-ae4b-a2cc051c27d2" width="800px"/>
 </p>
-
 
 6. Wait for some time & run the same command again to ensure that only one pod exists.
 
