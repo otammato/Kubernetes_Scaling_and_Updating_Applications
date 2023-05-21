@@ -294,3 +294,12 @@ kubectl get hpa hello-world
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/f92e8efd-6d8a-49b6-adf4-c5a59bada6ea" width="600px"/>
 </p>
 
+5. Please ensure that the kubernetes proxy is still running in the 2nd terminal. If it is not, please start it again by running:
+
+```
+kubectl proxy
+```
+
+6. Open another new terminal and enter the below command to spam the app with multiple requests for increasing the load:
+
+```for i in `seq 100000`; do curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy; done```
