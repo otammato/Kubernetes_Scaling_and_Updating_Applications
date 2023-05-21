@@ -255,10 +255,10 @@ curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/
 The added into the YAML manifest section specifies the CPU resource limits and requests for the container within the hello-world deployment.
 resources specifies the resource requirements for the container.
 
-```limits``` define the maximum amount of CPU resources the container can use.
-```cpu: 50m``` sets the CPU limit to 50 milliCPU units. The "m" suffix represents milliCPU units, where 1 CPU unit is equivalent to 1000 milliCPU units.
-```requests``` define the minimum amount of CPU resources the container needs to run.
-```cpu:``` 20m sets the CPU request to 20 milliCPU units.
+- ```limits``` define the maximum amount of CPU resources the container can use.
+- ```cpu: 50m``` sets the CPU limit to 50 milliCPU units. The "m" suffix represents milliCPU units, where 1 CPU unit is equivalent to 1000 milliCPU units.
+- ```requests``` define the minimum amount of CPU resources the container needs to run.
+- ```cpu:``` 20m sets the CPU request to 20 milliCPU units.
 
 In this configuration, the container is limited to a maximum of 50 milliCPU units (0.05 CPU units) and requires at least 20 milliCPU units (0.02 CPU units) to be scheduled on a node.
 
