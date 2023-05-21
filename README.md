@@ -39,7 +39,7 @@ export MY_NAMESPACE=sn-labs-$USERNAME
 2. Use the Explorer to view the Dockerfile that will be used to build an image.
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/459a71fd-42f9-48e5-ab91-f380391aa19b)" width="600px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/031db1d5-06a3-4777-befa-5f3b939e7262" width="600px"/>
 </p>
 
 
