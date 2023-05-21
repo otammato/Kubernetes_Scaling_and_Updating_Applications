@@ -2,7 +2,6 @@
 
 - Scale an application with a ReplicaSet
 - Apply rolling updates to an application
-- Use a ConfigMap to store application configuration
 - Autoscale the application using Horizontal Pod Autoscaler
 
 ## Pre-steps:
@@ -243,3 +242,7 @@ curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/0d010fda-04a3-4278-ae81-9b39db2b15af" width="500px"/>
 </p>
 
+<br>
+<br>
+
+## Autoscale the ```hello-world``` application using Horizontal Pod Autoscaler
