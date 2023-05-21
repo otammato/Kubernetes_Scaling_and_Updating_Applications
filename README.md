@@ -281,6 +281,7 @@ By running this command, you enable horizontal pod autoscaling for the "hello-wo
 
 4. You can check the current status of the newly-made HorizontalPodAutoscaler, by running:
 
+
 ```kubectl get hpa hello-world```
 
 <p align="left" >
