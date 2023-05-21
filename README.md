@@ -83,8 +83,9 @@ kubectl expose deployment/hello-world
 This creates a service of type ClusterIP.
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/b94467ea-18ad-4339-9025-0d746e5cc6d5" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/f63e878c-9c30-41c9-b135-0245aed84230"/>
 </p>
+
 
 5. Open a new terminal window using Terminal > New Terminal
 
