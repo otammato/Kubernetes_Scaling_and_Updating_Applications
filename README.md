@@ -27,7 +27,7 @@ cd CC201/labs/3_K8sScaleAndUpdate/
 <br>
 <br>
 
-## Build and push application image to Cloud Container Registry
+## Build and push application image to a Cloud Container Registry (I'm using IBM ICR here)
 1. Export your namespace as an environment variable so that it can be used in subsequent commands.
 ```
 export MY_NAMESPACE=sn-labs-$USERNAME
