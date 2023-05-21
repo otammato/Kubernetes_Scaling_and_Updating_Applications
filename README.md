@@ -269,3 +269,21 @@ In this configuration, the container is limited to a maximum of 50 milliCPU unit
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6c515ef4-add4-4e1c-9f6c-56427c8244f5" width="600px"/>
 </p>
 
+3. Autoscale the ```hello-world``` deployment using the below command:
+
+```kubectl autoscale deployment hello-world --cpu-percent=5 --min=1 --max=10```
+
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6e2f1f9f-35a0-48c5-ba8d-1d3c4e6cd596" width="600px"/>
+</p>
+
+By running this command, you enable horizontal pod autoscaling for the "hello-world" deployment, with a target CPU utilization of 5%. The number of replicas will dynamically scale between 1 and 10 based on the CPU utilization.
+
+4. You can check the current status of the newly-made HorizontalPodAutoscaler, by running:
+
+```kubectl get hpa hello-world```
+
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/f92e8efd-6d8a-49b6-adf4-c5a59bada6ea" width="600px"/>
+</p>
+
