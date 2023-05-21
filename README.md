@@ -316,3 +316,26 @@ kubectl get hpa hello-world --watch
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/346a2f76-3940-4580-8539-7ccce6159eb3" width="600px"/>
 </p>
 
+You will see an increase in the number of replicas which shows that your application has been autoscaled.
+<br>
+Stop this command by pressing ```CTRL + C```
+
+8. Delete the Deployment.
+
+```
+kubectl delete deployment hello-world
+```
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/8efced61-df6b-4b08-8b6b-fcaac04a0083" width="600px"/>
+</p>
+
+9. Delete the Service.
+
+```
+kubectl delete service hello-world
+```
+
+<p align="left" >
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6bde793e-d594-407d-9e07-d92d47fad13d" width="600px"/>
+</p>
+
