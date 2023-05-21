@@ -263,6 +263,7 @@ resources specifies the resource requirements for the container.
 In this configuration, the container is limited to a maximum of 50 milliCPU units (0.05 CPU units) and requires at least 20 milliCPU units (0.02 CPU units) to be scheduled on a node.
 
 2. Apply the deployment:
+
 ```kubectl apply -f deployment.yaml```
 <p align="left" >
   <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6c515ef4-add4-4e1c-9f6c-56427c8244f5" width="600px"/>
