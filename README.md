@@ -174,7 +174,7 @@ Rolling updates are an easy way to update our application in an automated and co
 1. Use the Explorer to edit ```app.js```. The path to this file is ```CC201/labs/3_K8sScaleAndUpdate/```. Change the welcome message from ```'Hello world from ' + hostname + '! Your app is up and running!\n'``` to ```'Welcome to ' + hostname + '! Your app is up and running!\n'```. Make sure to save the file when you’re done.
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/fe7ad849-2f90-4a1f-9743-3974fdad1a7d" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/a3442360-9511-4629-abbf-20a8f66c461f" width="800px"/>
 </p>
 
 2. Build and push this new version to Container Registry. Update the tag to indicate that this is a second version of this application. Make sure to use the terminal window that isn’t running the ```proxy``` command.
