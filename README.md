@@ -213,8 +213,7 @@ kubectl get deployments -o wide
 curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/53075492-52a2-48a8-8e2d-52b58cc93fde
-" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/09cf5878-5b54-49f4-beb8-c05d01bfc33c" width="800px"/>
 </p>
 
 
