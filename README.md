@@ -194,7 +194,7 @@ docker build -t us.icr.io/$MY_NAMESPACE/hello-world:2 . && docker push us.icr.io
 kubectl set image deployment/hello-world hello-world=us.icr.io/$MY_NAMESPACE/hello-world:2
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/8e2f997b-18ee-4ce4-857f-571b74d7c34a" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/f1e7a7c2-6b69-4c79-891c-35528120cf15" width="800px"/>
 </p>
 
 4. You can also get the Deployment with the wide option to see that the new tag is used for the image.
