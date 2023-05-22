@@ -236,8 +236,7 @@ kubectl get deployments -o wide
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/b820c4fb-d225-4f9a-a516-b4a0be68f43b
-" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/617a466f-93e1-4117-9501-57104d1d55f3" width="800px"/>
 </p>
 
 Look for the ```IMAGES``` column and ensure that the tag is ```1```.
