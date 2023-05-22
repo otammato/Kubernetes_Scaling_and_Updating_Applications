@@ -203,8 +203,9 @@ kubectl set image deployment/hello-world hello-world=us.icr.io/$MY_NAMESPACE/hel
 kubectl get deployments -o wide
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/0ebf1842-d497-43ce-93ae-045af652844d" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/29e06fa7-f384-44e1-bc4d-bcd3ebdaa008" width="800px"/>
 </p>
+
 
 5. Use ```curl``` command to ensure that the new welcome message is displayed.
 
@@ -212,8 +213,10 @@ kubectl get deployments -o wide
 curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/228df914-4f54-4e71-9760-84d61cf83897" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/53075492-52a2-48a8-8e2d-52b58cc93fde
+" width="800px"/>
 </p>
+
 
 6. It’s possible that a new version of an application contains a bug. In that case, Kubernetes can roll back the Deployment like this:
 ```
@@ -221,7 +224,7 @@ kubectl rollout undo deployment/hello-world
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/27473bc1-633c-4173-8d27-4894f4556d71" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/ed7583d7-1a40-42bc-9701-41d154695a06" width="800px"/>
 </p>
 
 7. Get a status of the rolling update by using the following command:
@@ -234,7 +237,8 @@ kubectl get deployments -o wide
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6fcdf302-fb36-4784-a451-6885204dd0a2" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/b820c4fb-d225-4f9a-a516-b4a0be68f43b
+" width="800px"/>
 </p>
 
 Look for the ```IMAGES``` column and ensure that the tag is ```1```.
@@ -244,7 +248,7 @@ Look for the ```IMAGES``` column and ensure that the tag is ```1```.
 curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/proxy
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/0d010fda-04a3-4278-ae81-9b39db2b15af" width="800px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/1a9b90bb-3145-45bc-a2f1-805db34a461c" width="800px"/>
 </p>
 
 <br>
@@ -254,7 +258,7 @@ curl -L localhost:8001/api/v1/namespaces/sn-labs-$USERNAME/services/hello-world/
 
 1. Add the following section to the deployment.yaml file under the template.spec.containers section
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/40397d01-3681-4b55-a399-a40d36425cc5" width="600px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/954b2472-afe3-4c3b-82d3-eb3a45829cc8" width="600px"/>
 </p>
 
 The added into the YAML manifest section specifies the CPU resource limits and requests for the container within the hello-world deployment.
@@ -273,7 +277,7 @@ In this configuration, the container is limited to a maximum of 50 milliCPU unit
 kubectl apply -f deployment.yaml
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6c515ef4-add4-4e1c-9f6c-56427c8244f5" width="600px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/f872aced-7245-47e5-a4a3-223b3adc1ff9" width="600px"/>
 </p>
 
 3. Autoscale the ```hello-world``` deployment using the below command:
@@ -283,7 +287,7 @@ kubectl autoscale deployment hello-world --cpu-percent=5 --min=1 --max=10
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6e2f1f9f-35a0-48c5-ba8d-1d3c4e6cd596" width="600px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6e3ebbca-04ad-440b-b276-3941efcaf99d" width="600px"/>
 </p>
 
 By running this command, you enable horizontal pod autoscaling for the "hello-world" deployment, with a target CPU utilization of 5%. The number of replicas will dynamically scale between 1 and 10 based on the CPU utilization.
@@ -296,7 +300,7 @@ kubectl get hpa hello-world
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/f92e8efd-6d8a-49b6-adf4-c5a59bada6ea" width="600px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/c132bcb1-f052-4467-918a-c45b7c8311bd" width="600px"/>
 </p>
 
 5. Please ensure that the kubernetes proxy is still running in the 2nd terminal. If it is not, please start it again by running:
@@ -318,7 +322,7 @@ This is a bash loop that repeatedly sends a curl request to the specified URL. I
 kubectl get hpa hello-world --watch
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/346a2f76-3940-4580-8539-7ccce6159eb3" width="600px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/d099b715-663a-46c6-9102-aa6a1618b499" width="600px"/>
 </p>
 
 You will see an increase in the number of replicas which shows that your application has been autoscaled.
@@ -331,7 +335,7 @@ Stop this command by pressing ```CTRL + C```
 kubectl delete deployment hello-world
 ```
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/8efced61-df6b-4b08-8b6b-fcaac04a0083" width="600px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/b3e73a44-b7d5-4865-a534-c60c6d2381ea" width="600px"/>
 </p>
 
 9. Delete the Service.
@@ -341,6 +345,6 @@ kubectl delete service hello-world
 ```
 
 <p align="left" >
-  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/6bde793e-d594-407d-9e07-d92d47fad13d" width="600px"/>
+  <img src="https://github.com/otammato/Kubernetes_Scaling_and_Updating_Applications/assets/104728608/be531d61-9f8a-4bec-8930-46ef91ab8225" width="600px"/>
 </p>
 
